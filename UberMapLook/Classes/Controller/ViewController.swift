@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mapView: GMSMapView!
     let lat = -23.562573
     let long = -46.654952
-    let zoom: Float = 13
+    let zoom: Float = 18
 
     // MARK: - UIViewContoller Methods
 

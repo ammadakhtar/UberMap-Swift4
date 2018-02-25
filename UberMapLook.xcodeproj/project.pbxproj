@@ -12,12 +12,12 @@
 		8150BB9720429EB8001C9BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9520429EB8001C9BEA /* Main.storyboard */; };
 		8150BB9920429EB8001C9BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9820429EB8001C9BEA /* Assets.xcassets */; };
 		8150BB9C20429EB8001C9BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9A20429EB8001C9BEA /* LaunchScreen.storyboard */; };
+		819D11AF2043088100DB0DBB /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D11AE2043087A00DB0DBB /* style.json */; };
 		EB266B68112FC5A78AEAAC22 /* Pods_UberMapLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C32A44AFE9FCD5007CA9C /* Pods_UberMapLook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BF683FA673255CFB0871284 /* Pods-UberMapLook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMapLook.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook.release.xcconfig"; sourceTree = "<group>"; };
-		812090ED2042B2BC00EC768E /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		8150BB8E20429EB8001C9BEA /* UberMapLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberMapLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8150BB9120429EB8001C9BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8150BB9320429EB8001C9BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +25,7 @@
 		8150BB9820429EB8001C9BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8150BB9B20429EB8001C9BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8150BB9D20429EB8001C9BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819D11AE2043087A00DB0DBB /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		A07C32A44AFE9FCD5007CA9C /* Pods_UberMapLook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberMapLook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52C899BEDE59688F0FBF437 /* Pods-UberMapLook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMapLook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +85,7 @@
 				8150BB9820429EB8001C9BEA /* Assets.xcassets */,
 				8150BB9A20429EB8001C9BEA /* LaunchScreen.storyboard */,
 				8150BB9D20429EB8001C9BEA /* Info.plist */,
-				812090ED2042B2BC00EC768E /* style.json */,
+				819D11AE2043087A00DB0DBB /* style.json */,
 			);
 			path = UberMapLook;
 			sourceTree = "<group>";
@@ -187,6 +188,7 @@
 				8150BB9C20429EB8001C9BEA /* LaunchScreen.storyboard in Resources */,
 				8150BB9920429EB8001C9BEA /* Assets.xcassets in Resources */,
 				8150BB9720429EB8001C9BEA /* Main.storyboard in Resources */,
+				819D11AF2043088100DB0DBB /* style.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

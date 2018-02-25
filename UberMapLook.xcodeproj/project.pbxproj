@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8150BB9220429EB8001C9BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150BB9120429EB8001C9BEA /* AppDelegate.swift */; };
+		8150BB9420429EB8001C9BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150BB9320429EB8001C9BEA /* ViewController.swift */; };
+		8150BB9720429EB8001C9BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9520429EB8001C9BEA /* Main.storyboard */; };
+		8150BB9920429EB8001C9BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9820429EB8001C9BEA /* Assets.xcassets */; };
+		8150BB9C20429EB8001C9BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150BB9A20429EB8001C9BEA /* LaunchScreen.storyboard */; };
+		EB266B68112FC5A78AEAAC22 /* Pods_UberMapLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C32A44AFE9FCD5007CA9C /* Pods_UberMapLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BF683FA673255CFB0871284 /* Pods-UberMapLook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMapLook.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook.release.xcconfig"; sourceTree = "<group>"; };
+		812090ED2042B2BC00EC768E /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		8150BB8E20429EB8001C9BEA /* UberMapLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberMapLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8150BB9120429EB8001C9BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8150BB9320429EB8001C9BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8150BB9620429EB8001C9BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8150BB9820429EB8001C9BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8150BB9B20429EB8001C9BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8150BB9D20429EB8001C9BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07C32A44AFE9FCD5007CA9C /* Pods_UberMapLook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberMapLook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52C899BEDE59688F0FBF437 /* Pods-UberMapLook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberMapLook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8150BB8B20429EB8001C9BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB266B68112FC5A78AEAAC22 /* Pods_UberMapLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0473462EA4362EB6E2631744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A07C32A44AFE9FCD5007CA9C /* Pods_UberMapLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2967A4D3A63D2E53E9A15F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52C899BEDE59688F0FBF437 /* Pods-UberMapLook.debug.xcconfig */,
+				2BF683FA673255CFB0871284 /* Pods-UberMapLook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8150BB8520429EB8001C9BEA = {
+			isa = PBXGroup;
+			children = (
+				8150BB9020429EB8001C9BEA /* UberMapLook */,
+				8150BB8F20429EB8001C9BEA /* Products */,
+				2967A4D3A63D2E53E9A15F20 /* Pods */,
+				0473462EA4362EB6E2631744 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8150BB8F20429EB8001C9BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8150BB8E20429EB8001C9BEA /* UberMapLook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8150BB9020429EB8001C9BEA /* UberMapLook */ = {
+			isa = PBXGroup;
+			children = (
+				8150BBA32042A13B001C9BEA /* Classes */,
+				8150BB9520429EB8001C9BEA /* Main.storyboard */,
+				8150BB9820429EB8001C9BEA /* Assets.xcassets */,
+				8150BB9A20429EB8001C9BEA /* LaunchScreen.storyboard */,
+				8150BB9D20429EB8001C9BEA /* Info.plist */,
+				812090ED2042B2BC00EC768E /* style.json */,
+			);
+			path = UberMapLook;
+			sourceTree = "<group>";
+		};
+		8150BBA32042A13B001C9BEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8150BBA52042A161001C9BEA /* Application */,
+				8150BBA42042A144001C9BEA /* Controller */,
+				8150BBA62042A1A3001C9BEA /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8150BBA42042A144001C9BEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8150BB9320429EB8001C9BEA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8150BBA52042A161001C9BEA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8150BB9120429EB8001C9BEA /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8150BBA62042A1A3001C9BEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8150BB8D20429EB8001C9BEA /* UberMapLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8150BBA020429EB8001C9BEA /* Build configuration list for PBXNativeTarget "UberMapLook" */;
+			buildPhases = (
+				E7F3BF429A06D0DBEF9B0F02 /* [CP] Check Pods Manifest.lock */,
+				8150BB8A20429EB8001C9BEA /* Sources */,
+				8150BB8B20429EB8001C9BEA /* Frameworks */,
+				8150BB8C20429EB8001C9BEA /* Resources */,
+				3286EA8EBB6EC7C18E1472E2 /* [CP] Embed Pods Frameworks */,
+				AEED09AE3B4EACBAB5FFD55E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberMapLook;
+			productName = UberMapLook;
+			productReference = 8150BB8E20429EB8001C9BEA /* UberMapLook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8150BB8620429EB8001C9BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ammad;
+				TargetAttributes = {
+					8150BB8D20429EB8001C9BEA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8150BB8920429EB8001C9BEA /* Build configuration list for PBXProject "UberMapLook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8150BB8520429EB8001C9BEA;
+			productRefGroup = 8150BB8F20429EB8001C9BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8150BB8D20429EB8001C9BEA /* UberMapLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8150BB8C20429EB8001C9BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8150BB9C20429EB8001C9BEA /* LaunchScreen.storyboard in Resources */,
+				8150BB9920429EB8001C9BEA /* Assets.xcassets in Resources */,
+				8150BB9720429EB8001C9BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3286EA8EBB6EC7C18E1472E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEED09AE3B4EACBAB5FFD55E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberMapLook/Pods-UberMapLook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F3BF429A06D0DBEF9B0F02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8150BB8A20429EB8001C9BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8150BB9420429EB8001C9BEA /* ViewController.swift in Sources */,
+				8150BB9220429EB8001C9BEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8150BB9520429EB8001C9BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8150BB9620429EB8001C9BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8150BB9A20429EB8001C9BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8150BB9B20429EB8001C9BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8150BB9E20429EB8001C9BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8150BB9F20429EB8001C9BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8150BBA120429EB8001C9BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52C899BEDE59688F0FBF437 /* Pods-UberMapLook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3K2KK6JPR;
+				INFOPLIST_FILE = UberMapLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creative.UberMapLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8150BBA220429EB8001C9BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF683FA673255CFB0871284 /* Pods-UberMapLook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3K2KK6JPR;
+				INFOPLIST_FILE = UberMapLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creative.UberMapLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8150BB8920429EB8001C9BEA /* Build configuration list for PBXProject "UberMapLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8150BB9E20429EB8001C9BEA /* Debug */,
+				8150BB9F20429EB8001C9BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8150BBA020429EB8001C9BEA /* Build configuration list for PBXNativeTarget "UberMapLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8150BBA120429EB8001C9BEA /* Debug */,
+				8150BBA220429EB8001C9BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8150BB8620429EB8001C9BEA /* Project object */;
+}

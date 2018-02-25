@@ -1,0 +1,6 @@
+framework module Pods_UberMapLook {
+  umbrella header "Pods-UberMapLook-umbrella.h"
+
+  export *
+  module * { export * }
+}
